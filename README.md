@@ -26,7 +26,7 @@ Add the dependency in your app or module:
 
 ```kotlin
 dependencies {
-    implementation("com.afquintana:versioncheck:1.0.4")
+    implementation("com.afquintana:versioncheck:1.0.5")
 }
 ```
 
@@ -34,11 +34,11 @@ Groovy version:
 
 ```groovy
 dependencies {
-    implementation 'com.afquintana:versioncheck:1.0.4'
+    implementation 'com.afquintana:versioncheck:1.0.5'
 }
 ```
 
-> If you publish a newer version later, replace `1.0.4` with the latest one.
+> If you publish a newer version later, replace `1.0.5` with the latest one.
 
 ## Usage
 
