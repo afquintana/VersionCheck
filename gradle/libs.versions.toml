@@ -3,11 +3,13 @@ agp = "9.1.0"
 coreKtx = "1.18.0"
 appcompat = "1.7.1"
 mavenPublish = "0.36.0"
+android-minSdk = "36"
+android-compileSdk = "36"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 
 [plugins]
-android-application = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
 maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "mavenPublish" }
