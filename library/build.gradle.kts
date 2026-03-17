@@ -13,9 +13,7 @@ android {
 
 dependencies {
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
 }
-
 
 group = providers.gradleProperty("GROUP").get()
 version = providers.gradleProperty("VERSION_NAME").get()

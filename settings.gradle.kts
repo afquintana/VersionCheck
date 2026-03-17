@@ -24,3 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Version Check"
 include(":library")
+include(":demo")

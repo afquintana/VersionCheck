@@ -8,6 +8,16 @@ import androidx.annotation.ChecksSdkIntAtLeast
 @Suppress("unused")
 object VersionCheck {
 
+
+    /**
+     * API level 36+, Android 16.
+     */
+    @get:ChecksSdkIntAtLeast(api = Build.VERSION_CODES.BAKLAVA)
+    @JvmStatic
+    val isBaklavaOrHigher: Boolean
+        @SuppressLint("ObsoleteSdkInt")
+        get() = VERSION.SDK_INT >= Build.VERSION_CODES.BAKLAVA
+
     /**
      * API level 35+, Android 15.
      */
